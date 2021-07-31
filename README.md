@@ -23,6 +23,9 @@ This README documents steps to get the engagedmd application up and running.
     Testing:
         jest
         supertest
+        
+    Install with `npm i cookie-parser jsonwebtoken serverless-http jest supertest`
+
 
 * Configuration Files
     .env contains:
