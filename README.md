@@ -17,12 +17,12 @@ This README documents steps to get the engagedmd application up and running.
 * This sample is configured to be run locally but has instructions to be uploaded as an AWS lambda function
 * Dependencies packages:
     Running:
-        cookie-parser
-        jsonwebtoken
-        serverless-http
+>        cookie-parser
+>        jsonwebtoken
+>       serverless-http
     Testing:
-        jest
-        supertest
+>        jest
+>        supertest
         
     Install with `npm i cookie-parser jsonwebtoken serverless-http jest supertest`
 
