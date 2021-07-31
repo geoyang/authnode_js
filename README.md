@@ -15,7 +15,8 @@ This README documents steps to get the engagedmd application up and running.
 * Install node.js (this has been tested in v14.17.4 and v16.6.0), 
 ### test with `node --version`
 * This sample is configured to be run locally but has instructions to be uploaded as an AWS lambda function
-* Dependencies packages:
+
+## Dependencies packages ##
 
     Running:
 >        cookie-parser
