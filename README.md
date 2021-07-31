@@ -29,10 +29,10 @@ This README documents steps to get the engagedmd application up and running.
 
 * Configuration Files
     .env contains:
-        engagedMD: a value to make sure you have the correct .env file which must be true to run
-        CREDENTIALS_FILE:  The name of a file to store your active tokens
-        credentials: a json array with  username password key pairs in this form: 
-                        [{"username":"password"},{"username1":"password1"}]
+>        engagedMD: a value to make sure you have the correct .env file which must be true to run
+>        CREDENTIALS_FILE:  The name of a file to store your active tokens
+>        credentials: a json array with  username password key pairs in this form: 
+>                        [{"username":"password"},{"username1":"password1"}]
 
 Running the server:
 
