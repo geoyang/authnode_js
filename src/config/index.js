@@ -1,8 +1,9 @@
-const dotenv = require('dotenv');
-dotenv.config();
+const { resolve } = require('path');
+require('dotenv').config({ path: '/.env' });
+
 module.exports = {
-  endpoint: process.env.API_URL,
-  masterKey: process.env.API_KEY,
   port: process.env.PORT,
-  mongoUrl: process.env.MONGO_URL,
+  credentials: process.env.CREDENTIALS,
+  tokenFile: process.env.TOKENS_FILE,
+  engagedMD: process.env.ENGAGEDMD
 };
