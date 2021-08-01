@@ -46,6 +46,16 @@ Runs the app in the development mode.
 The Endpoints will be: 
     `http://localhost:4242/authenticate`
     `http://localhost:4242/welcome`
+    
+### Design Note
+    This example does not use the best pratice of MVC separation and modularity, i.e. folders for
+    - api
+    - config
+    - models
+    - controllers
+    - services
+    - subscribers
+    (yet...)  This is highly recommended for project clarity and industry best practice consistency, but may exceed the scope of this project.
 
 ### Operation
 
