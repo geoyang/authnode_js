@@ -15,12 +15,12 @@ The Endpoints will be:
 
 ### Design Note
     This example does not use the best pratice of MVC separation and modularity, i.e. folders for
-        - api
-	- config
-        - models
-	- controllers
-	- services
-	- subscribers
+    - api
+    - config
+    - models
+    - controllers
+    - services
+    - subscribers
       (yet...)  This is highly recommended for project clarity and industry best practice consistency, but may exceed the scope of this project.
 
 * Update I have made some of these structural changes, but in retrospect they really only apply in monolithic applications and wouldn't be really appropriate for microservices architetures which node.js especially deployes as lambdas are especially good at.
