@@ -11,7 +11,7 @@ In the project directory, you can run:
 Runs the app in the development mode.
 The Endpoints will be:
     `http://localhost:4242/authenticate`
-        `http://localhost:4242/welcome`
+     `http://localhost:4242/welcome`
 
 ### Design Note
     This example does not use the best pratice of MVC separation and modularity, i.e. folders for
@@ -32,7 +32,7 @@ For simplicities sake these were built as GET methods so it's possible to test f
 
     Should successfully return a token in the engagedMD cookie
         using that token stored in the cookie in the for all future references
-	   `http://localhost:4242/welcome`
+	`http://localhost:4242/welcome`
 
 A convenience endpoint has been created to clear out existing tokens to simulate their expiration
     `http://localhost:4242/cleartokens`
