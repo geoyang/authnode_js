@@ -11,7 +11,7 @@ In the project directory, you can run:
 Runs the app in the development mode.
 The Endpoints will be:
     `http://localhost:4242/authenticate`
-     `http://localhost:4242/welcome`
+    `http://localhost:4242/welcome`
 
 ### Design Note
     This example does not use the best pratice of MVC separation and modularity, i.e. folders for
@@ -28,14 +28,17 @@ The Endpoints will be:
 ### Operation
 
 For simplicities sake these were built as GET methods so it's possible to test from a browser for example:
-    `http://localhost:4242/authenticate?username=username&password=password`
+
+`http://localhost:4242/authenticate?username=username&password=password`
 
     Should successfully return a token in the engagedMD cookie
         using that token stored in the cookie in the for all future references
-	`http://localhost:4242/welcome`
+	
+`http://localhost:4242/welcome`
 
 A convenience endpoint has been created to clear out existing tokens to simulate their expiration
-    `http://localhost:4242/cleartokens`
+
+`http://localhost:4242/cleartokens`
 
 ###  Testing
 A number of unit tests and use case tests are included built on the jest and supertest packages.  They are very simple but can be expanded for advanced capabilities.  The tests are in the test folder and are executed by the following command.
