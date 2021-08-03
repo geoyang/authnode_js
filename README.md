@@ -1,5 +1,38 @@
-ame of a file to store your active tokens
->        credentials: a json array with  username password key pairs in this form:
+# README #
+
+This README documents steps to get the engagedmd application up and running.
+
+### The engagedMD app is a demonstration node.js API that provides an authentication and and token security system framework ###
+
+* There are two endpoints:  GET/authenticate and GET/welcome
+* Version .07 
+* Author: Greg Eoyang, greg@eoyang.com
+* Latest Update: 07/31/2021
+
+### Setup instructions ###
+
+* Install node.js (this has been tested in v14.17.4 and v16.6.0), 
+### test with `node --version`
+* This sample is configured to be run locally but has instructions to be uploaded as an AWS lambda function
+
+## Dependencies packages ##
+
+    Running:
+>        cookie-parser
+>        jsonwebtoken
+>        serverless-http
+    Testing:
+>        jest
+>        supertest
+        
+    Install with `npm i cookie-parser jsonwebtoken serverless-http jest supertest`
+
+
+* Configuration Files
+    .env contains:
+>        engagedMD: a value to make sure you have the correct .env file which must be true to run
+>        CREDENTIALS_FILE:  The name of a file to store your active tokens
+>        credentials: a json array with  username password key pairs in this form: 
 >                        [{"username":"password"},{"username1":"password1"}]
 
 Running the server:
